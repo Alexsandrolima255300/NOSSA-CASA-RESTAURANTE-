@@ -15,7 +15,7 @@
     .topline{background:var(--vinho);color:var(--creme);text-align:center;padding:9px 16px;font-size:12px;letter-spacing:.08em}
     header{position:sticky;top:0;z-index:20;background:rgba(238,231,210,.96);backdrop-filter:blur(14px);border-bottom:1px solid rgba(91,61,60,.13)}
     .nav{max-width:1180px;margin:auto;min-height:76px;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
-    .brand{display:flex;align-items:center;gap:12px}.brand-mark{width:48px;height:48px;border-radius:50%;background:var(--bege);display:grid;place-items:center;font-size:26px;border:1px solid rgba(91,61,60,.18)}.brand-name{font-family:"Playfair Display",serif;font-size:22px;font-weight:800;line-height:1}.brand-sub{display:block;font:600 9px "DM Sans",sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--vinho);margin-top:5px}
+    .brand{display:flex;align-items:center;gap:12px}.brand-mark{width:48px;height:48px;border-radius:50%;background:var(--bege);display:grid;place-items:center;overflow:hidden;border:1px solid rgba(91,61,60,.18);flex:0 0 48px}.brand-mark img{width:100%;height:100%;object-fit:contain;display:block}.brand-name{font-family:"Playfair Display",serif;font-size:22px;font-weight:800;line-height:1}.brand-sub{display:block;font:600 9px "DM Sans",sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--vinho);margin-top:5px}
     .links{display:flex;align-items:center;gap:28px;font-size:13px;font-weight:700}.links a:not(.nav-cta):hover{color:var(--vinho)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:0;border-radius:999px;background:var(--vinho);color:var(--white);padding:13px 21px;font-weight:700;font-size:13px;transition:.2s;cursor:pointer}.nav-cta:hover,.btn:hover{background:var(--carvao);transform:translateY(-2px)}
     .hero{max-width:1180px;margin:0 auto;padding:54px 24px 72px;display:grid;grid-template-columns:1fr 1.02fr;gap:48px;align-items:center;min-height:570px}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--vinho);font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:11px}.eyebrow:before{content:"";width:26px;height:1px;background:var(--vinho)}
     h1,h2,h3{font-family:"Playfair Display",serif}h1{font-size:clamp(43px,5.4vw,70px);line-height:1.03;letter-spacing:-.035em;margin:18px 0;color:var(--carvao)}h1 em{color:var(--vinho);font-style:normal}.hero-copy{max-width:490px;color:#665f56;font-size:16px;line-height:1.8;margin:0 0 27px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn.secondary{background:transparent;color:var(--vinho);border:1px solid rgba(91,61,60,.35)}.btn.secondary:hover{background:var(--bege)}
@@ -38,7 +38,7 @@
   <header>
     <nav class="nav" aria-label="Navegação principal">
       <a class="brand" href="#inicio" aria-label="Nossa Casa Restaurante - início">
-        <span class="brand-mark" aria-hidden="true">🍗</span>
+        <span class="brand-mark"><img src="https://raw.githubusercontent.com/Alexsandrolima255300/NOSSA-CASA-RESTAURANTE-/354696b1bbde5f94d514e2e47f4f8cdabed460cb/file_000000008e6c820eb113e31c7b61e653.png" alt="Logo Nossa Casa Restaurante"></span>
         <span><span class="brand-name">Nossa Casa</span><span class="brand-sub">Restaurante</span></span>
       </a>
       <div class="links">
@@ -60,7 +60,7 @@
       </div>
       <div class="hero-visual">
         <div class="stamp">Feito com<br>carinho ♥</div>
-        <div class="hero-photo"><img src="https://raw.githubusercontent.com/Alexsandrolima255300/NOSSA-CASA-RESTAURANTE-/354696b1bbde5f94d514e2e47f4f8cdabed460cb/file_000000008e6c820eb113e31c7b61e653.png" alt="Refeição fresca e colorida servida à mesa"></div>
+        <div class="hero-photo"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1100&q=85" alt="Refeição fresca e colorida servida à mesa"></div>
         <div class="photo-note"><strong>Tem gostinho de lar</strong><span>Seu almoço com carinho todos os dias.</span></div>
       </div>
     </section>
